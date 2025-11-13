@@ -1,0 +1,16 @@
+t1=(11,1,11,22,33,44)
+print(t1.count(11))
+print(t1.index(22))
+print(t1[3])
+print(11 in t1)
+print(55 in t1)
+print(t1[1:4])
+print(t1)
+for i in t1:
+    print(i)
+t2=(99,88,77)
+t3=t1+t2
+print(t3)
+print(len(t3))
+print(min(t3))
+print(max(t3))

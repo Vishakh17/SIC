@@ -1,0 +1,6 @@
+a=('A', 'B', 'C')
+b=('A', 'B', 'D')
+print(ord('C'))
+print(ord('D'))
+print(a<b)
+print(b<a)
