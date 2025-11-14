@@ -1,0 +1,13 @@
+t_planet={
+    "Mercury":{
+        "mean_radius":2429.7,
+        "mass":3.3022E+23,
+        "orbit_period":87.969
+    },
+   "venus":{
+        "mean_radius":6051.8,
+        "mass":4.8676E+24,
+        "orbit_period":224.700069
+    },
+}
+print(t_planet["Mercury"]["mass"])
