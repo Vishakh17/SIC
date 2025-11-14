@@ -22,3 +22,6 @@ print(dir(datetime))
 import datetime as dt
 start_time=dt.datetime.now()
 start_time.replace(month=12,day=25)
+from datetime import *
+today=date.today()
+print(today)
